@@ -1,0 +1,58 @@
+body {
+  font-family: Arial,bold, sans-serif;
+  text-align: center;
+  margin-top: 200px;
+}
+
+
+.app {
+  display: inline-block;
+  padding: 50px;
+  border: 20px solid #e23dbe;
+  border-radius: 10px;
+}
+
+.time {
+  font-size: 58px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+button.start {
+  background-color: green;   /* Start button = Green */
+}
+
+button.stop {
+  background-color: red;     /* Stop button = Red */
+}
+
+button.reset {
+  background-color: blue;    /* Reset button = Blue */
+}
+button {
+  font-weight: bold;      
+  color: white;           
+  background-color: #e23d3d; 
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.1s ease, background-color 0.2s ease; /* animation smooth karanna */
+}
+
+/* hover karama color thoda change wenna */
+button:hover {
+  background-color: #c32b2b;
+}
+
+/* click / touch animation */
+button:active {
+  transform: scale(0.95);  /* button thoda compress wenawa */
+  background-color: #a82323; /* click wenama color thoda change wenawa */
+}
